@@ -1,4 +1,4 @@
-name: Betdaq Scraper
+name: Bd Scraper
 
 on:
   schedule:
