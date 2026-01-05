@@ -108,6 +108,8 @@ def main():
     
     # Speed optimizations - Use with caution if you get blocked, sometimes eager is detectable
     options.page_load_strategy = 'eager' 
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
     prefs = {
         "profile.managed_default_content_settings.images": 2, 
     }
