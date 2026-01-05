@@ -3,3 +3,4 @@ undetected-chromedriver
 selenium-stealth
 python-dotenv
 requests
+setuptools
