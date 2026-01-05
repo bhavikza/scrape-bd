@@ -104,7 +104,7 @@ def main():
     
     # Setup Chrome options
     options = uc.ChromeOptions()
-    options.add_argument('--headless')  # Comment in if you want headless mode
+    # options.add_argument('--headless')  # Comment in if you want headless mode
     
     # Speed optimizations - Use with caution if you get blocked, sometimes eager is detectable
     options.page_load_strategy = 'eager' 
