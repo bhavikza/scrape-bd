@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "Scraper Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add betdaq_data.db
+          git add bd_data.db
           # 'git diff --staged --quiet' returns code 1 if there are changes, 0 if clean
           # We use "|| exit 0" to suppress error if nothing to commit
           timestamp=$(date -u)
